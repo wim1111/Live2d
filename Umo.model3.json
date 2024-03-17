@@ -1,0 +1,28 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Umo.moc3",
+		"Textures": [
+			"Umo.4096/texture_00.png",
+			"Umo.4096/texture_01.png",
+			"Umo.4096/texture_02.png"
+		],
+		"Physics": "Umo.physics3.json",
+		"DisplayInfo": "Umo.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}
